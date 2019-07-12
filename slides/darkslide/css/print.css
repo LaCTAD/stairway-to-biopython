@@ -1,0 +1,47 @@
+#toc,
+#help,
+.slide aside,
+.slide .notes,
+.presenter_notes,
+#current_presenter_notes,
+#presenter_note {
+    display: none;
+}
+
+@page {
+    margin: 0;
+    size: 1031px 781px;
+}
+.slide,
+.slide.current,
+.slides,
+body,
+.presentation {
+    position: relative;
+    margin: 0;
+    box-shadow: none !important;
+}
+
+.inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.slide {
+    margin: 0 !important;
+    page-break-after: avoid;
+}
+
+.slide-wrapper {
+    page-break-after: always;
+    position: relative;
+    margin: 0;
+    padding: 15px;
+}
+* {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
