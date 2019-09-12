@@ -34,6 +34,7 @@ h2 {
     color: #F92672;
     font-family: 'Arvo';
     font-weight: normal;
+    display: block;
 }
 
 h2 {
@@ -43,6 +44,11 @@ h2 {
 section {
     color: #E9E8ED;
     font-family: 'Scope One';
+    font-size: 280%;
+}
+
+section p {
+    margin-left: 2%;
 }
 
 footer {

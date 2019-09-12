@@ -1,6 +1,6 @@
 # Introdução
 
-.footer: <span class=left>Felipe Bidu – felipe@felipevr.com</span> <span class=right><a href=https://github.com/fbidu>github.com/fbidu</a></span>
+.footer: <span class=left>Felipe Bidu – felipe@felipevr.com</span><span class=right><a href=https://github.com/fbidu>github.com/fbidu</a></span>
 
 ---
 
@@ -34,23 +34,24 @@
 
 ---
 
-## É difícil comparar de forma justa linguagens diferentes
-1. Qual algoritmo sendo testado?
+# É difícil comparar de forma justa linguagens diferentes
+
+- Qual algoritmo sendo testado?
 
 ---
 
-## É difícil comparar de forma justa linguagens diferentes
+# É difícil comparar de forma justa linguagens diferentes
 
-1. Qual algoritmo sendo testado?
-2. Ele é mais intensivo em uso de CPU, de RAM ou de I/O?
+- Qual algoritmo sendo testado?
+- Ele é mais custoso em CPU, RAM ou I/O?
 
 ---
 
-## É difícil comparar de forma justa linguagens diferentes
+# É difícil comparar de forma justa linguagens diferentes
 
-1. Qual algoritmo sendo testado?
-2. Ele é mais intensivo em uso de CPU, de RAM ou de I/O?
-3. Qual a proficiência do desenvolvedor em escrever na linguagem X e na Y?
+- Qual algoritmo sendo testado?
+- Ele é mais intensivo em uso de CPU, de RAM ou de I/O?
+- Qual a proficiência do desenvolvedor em escrever na linguagem X e na Y?
 
 ---
 
@@ -101,8 +102,8 @@
 
 ## Qual seu objetivo com programação?
 
-1. Escrever código?
-2. Analisar um conjunto de informações e chegar num resultado?
+- Escrever código?
+- Analisar um conjunto de informações e chegar num resultado?
 
 ---
 
@@ -148,13 +149,86 @@ projetos assim!
 
 # Jupyter
 
-1. [Jupyter](https://jupyter.org/)
-2. [Challenges in irreproducible research](https://www.nature.com/collections/prbfkwmwvz)
-3. [AAAS: Machine learning 'causing science crisis'](https://www.bbc.com/news/science-environment-47267081)
-4. [Nuvem dos Candidatos](https://nbviewer.jupyter.org/github/fbidu/nuvem-candidatos/blob/master/passo_a_passo.ipynb)
-5. [Jupyter Paper Template](https://github.com/pinga-lab/paper-template)
-6. [10 Simple Rules](https://arxiv.org/pdf/1810.08055.pdf)
-7. [Installing Jupyter](https://jupyter.readthedocs.io/en/latest/install.html)
+Durante o curso, usaremos o ambiente Jupyter
+
+---
+
+# Jupyter
+
+Ele permite que a gente rode Python direto do navegador
+
+---
+
+# Jupyter
+
+Em suas casas/laboratórios, vocês podem instalar o Python diretamente do site oficial, [Python.org](https://python.org)
+
+---
+
+# Jupyter
+
+O ambiente Jupyter tem sido bastante usado pela comunidade científica!
+
+---
+
+# Jupyter
+
+Permite colocar códigos, resultados e textos no mesmo documento, criando uma experiência interativa – e análises reproduzíveis!
+
+---
+
+# Jupyter
+
+- [Jupyter](https://jupyter.org/)
+- [Installing Jupyter](https://jupyter.readthedocs.io/en/latest/install.html)
+- [Challenges in irreproducible research](https://www.nature.com/collections/prbfkwmwvz)
+
+---
+
+# Jupyter 
+
+- [AAAS: Machine learning 'causing science crisis'](https://www.bbc.com/news/science-environment-47267081)
+- [Nuvem dos Candidatos](https://nbviewer.jupyter.org/github/fbidu/nuvem-candidatos/blob/master/passo_a_passo.ipynb)
+- [Jupyter Paper Template](https://github.com/pinga-lab/paper-template)
+- [10 Simple Rules](https://arxiv.org/pdf/1810.08055.pdf)
+
+---
+
+.fx: interlude
+
+# Python!
+
+---
+
+Inicie o ambiente [aqui!](https://mybinder.org/v2/gh/LaCTAD/stairway-to-biopython/master)
+
+---
+
+Em python, não é necessário declararmos variáveis ou seu tipo.
+
+---
+
+## Vários tipos diferentes
+
+    !python
+    lab = "LaCTAD"
+    ano = 1992
+    altura = 1.88
+    nomes = ["Felipe", "Osvaldo", "Janine", "Leandro", "Sandra"]
+    antes_do_meio_dia = True
+    info = {
+        "nome": "Felipe",
+        "país": "Brasil",
+        "aniversário": "08/01"
+    }
+
+---
+
+## Inspecionando os tipos
+
+    !python
+    nome = "UNICAMP"
+    type(nome)
 
 ---
 
